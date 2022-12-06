@@ -1,0 +1,13 @@
+managed implementation in class zbp_i_travel_m_199 unique;
+strict ( 2 );
+
+define behavior for ZI_TRAVEL_M_199 //alias <alias_name>
+persistent table ZTRAVEL_199
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}
